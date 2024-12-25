@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body{
+  
+     #edit, #remov, #cros{
+      padding: 3px;
+     }
+
+      #edit, #remov, #cros, #save{
+        background-color: rgb(46, 53, 31);
+        color: white;
+        width: 40px; 
+        margin: 5px 3px;
+        border-radius: 7px;
+        font-size: 14px;
+
+        background: linear-gradient(270deg, #ce68d9, #45c6db, #45db79, #2532BF, #D0D649, #6949D6);
+        background-size: 800% 800%;
+
+        :hover{
+          color: black;
+        }
+
+      }
+      #save{
+        background-color: rgb(46, 53, 31);
+        width: 40px;
+        border-radius: 2px;
+        padding: 3px;
+      }
+
+      #editinput{
+        background-color:  #45c6db;;
+        border-bottom: 1px solid black;
+        font-family: serif;
+      }
+
+      #cros{
+        margin-right: 20px;
+      }
+
+      #text{
+        font-size: 16px;
+        font-family: serif;
+      }
+
+
+      #rool > p {
+        border-bottom: 2px solid black;
+      }
+
+      #card {
+        background: linear-gradient(270deg, #ce68d9, #45c6db, #45db79, #2532BF, #D0D649, #6949D6);
+        background-size: 800% 800%;
+        border-radius: 7px;
+        cursor: pointer;
+        box-sizing: border-box;
+      }
+
+      #list{
+        margin-top: 10px;
+        
+        div{
+          margin-top: 10px;
+          background-color: #45c6db;
+          padding: 3px;
+          border-radius: 5px;
+        }
+      }
+
+
+
+     #titel-text{
+      background-size: 800% 800%;
+
+      font-size: 30px;
+      font-weight: bold;
+       background: conic-gradient(
+        #06b836,
+        #070208,
+        #03bb87,
+        #d70505,
+        #b90941,
+        #220f8c,
+        #1970aa
+      );
+
+      background-clip: text;
+     -webkit-text-fill-color: transparent;
+     }
+
+
+
+
+     #add-btn{  
+      background-image: linear-gradient(135deg, #feb692 0%, #ea5455 100%);
+      box-shadow: 0 20px 30px -8px rgba(238, 103, 97, 0.5), 5px 6px -8px rgba(129, 13, 7, 0.5) ;
+      outline: none;
+      cursor: pointer;
+      border: none;
+      color: #0909099e;
+
+  
+     }
+     
+  
+
+}
